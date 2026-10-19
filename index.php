@@ -15,20 +15,20 @@ session_start();
     <link rel="stylesheet" href="https://<?=  $_SERVER['HTTP_HOST'] ?>:5173/src/style.css">
     <?php
     else: ?>
-    <link rel="stylesheet" href="dist/outputHasil2.css"
+    <link rel="stylesheet" href="dist/outputHasil.css">
     <?php endif; ?>
 </head>
 <body>
     <header class="flex justify-between bg-blue-300 p-4 sticky top-0">
         <div>
-            <img src="/assets/images/hotel_icon.webp" alt="Gambar Ikon Hotel" width="30">
+            <img src="./dist/images/hotel_icon.webp" alt="Gambar Ikon Hotel" width="30">
         </div>
         
         <h1 class="font-bold text-2xl">SISTEM INFORMASI HOTEL ANUGRAH</h1>
     </header>
-    <main class="bg-[url('/assets/images/gambar_kota.jpg')] bg-cover min-h-screen grid grid-flow-col grid-rows-1 gap-4">
+    <main class="bg-[url(/SistemInformasiHotel/dist/images/gambar_kota.jpg)] bg-cover w-screen min-h-screen grid grid-flow-col grid-rows-1 gap-4">
         <article class="col-span-2 bg-blue-100 flex justify-center items-center m-2 rounded">
-            <form action="/login_validasi.php" method="post" class="w-2xl bg-white rounded-xl p-8 px-12">
+            <form action="./login_validasi.php" method="post" class="w-2xl bg-white rounded-xl p-8 px-12">
                 <h1 class="text-center font-bold mb-6">Login Sebagai Admin/Petugas</h1>
                 <fieldset>
                     <?php

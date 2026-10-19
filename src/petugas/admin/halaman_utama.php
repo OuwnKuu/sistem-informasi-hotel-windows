@@ -23,7 +23,7 @@ include_once __DIR__ . "/tampil_data_overview.php";
     <link rel="stylesheet" href="https://<?=  $_SERVER['HTTP_HOST'] ?>:5173/src/style.css">
     <?php
     else: ?>
-    <link rel="stylesheet" href="dist/outputHasil2.css">
+    <link rel="stylesheet" href="../../../dist/outputHasil.css">
     <?php endif; ?>
 </head>
 <body class="bg-mauve-200">

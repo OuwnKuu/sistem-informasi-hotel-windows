@@ -18,7 +18,7 @@ include_once __DIR__ . "/../koneksi.php";
         <link rel="stylesheet" href="https://<?= $_SERVER['HTTP_HOST'] ?>:5173/src/style.css">
     <?php
     else: ?>
-        <link rel="stylesheet" href="dist/outputHasil2.css">
+        <link rel="stylesheet" href="../../dist/outputHasil.css">
     <?php endif; ?>
 </head>
 
@@ -56,17 +56,17 @@ include_once __DIR__ . "/../koneksi.php";
                     <div>
                         <input class="cursor-pointer" type="radio" id="standard" name="fasilitas" value="Standard">
                         <label for="standard">Standard</label>
-                        <img class="rounded-lg" src="../../assets/images/kamar_standard.jpg" width="300">
+                        <img class="rounded-lg" src="../../dist/images/kamar_standard.jpg" width="300">
                     </div>
                     <div>
                         <input class="cursor-pointer" type="radio" id="deluxe" name="fasilitas" value="Deluxe">
                         <label for="deluxe">Deluxe</label>
-                        <img class="rounded-lg" src="../../assets/images/kamar_deluxe.jpg" width="300">
+                        <img class="rounded-lg" src="../../dist/images/kamar_deluxe.jpg" width="300">
                     </div>
                     <div>
                         <input class="cursor-pointer" type="radio" id="executive" name="fasilitas" value="Executive">
                         <label for="executive">Executive</label>
-                        <img class="rounded-lg" src="../../assets/images/kamar_executive.jpg" width="300">
+                        <img class="rounded-lg" src="../../dist/images/kamar_executive.jpg" width="300">
                     </div>
                 </div>
                 <br>

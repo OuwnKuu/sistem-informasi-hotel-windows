@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://<?=  $_SERVER['HTTP_HOST'] ?>:5173/src/style.css">
     <?php
     else: ?>
-    <link rel="stylesheet" href="dist/dist/outputHasil2.css">
+    <link rel="stylesheet" href="../../dist/outputHasil.css">
     <?php endif; ?>
 </head>
 <body class="bg-blue-200">
     <main>
-        <section class="bg-[url(../../assets/images/gambar_hotel.webp)] bg-cover bg-center min-h-screen">
+        <section class="bg-[url(/SistemInformasiHotel/dist/images/gambar_hotel.webp)] bg-cover bg-center min-h-screen">
             <div class="flex flex-col pt-116 mb-8">
                 <h1 class="text-8xl font-bold text-white animate-slide-in pl-4">HOTEL ANUGRAH</h1>
                 <H2 class="text-4xl font-bold text-white animate-slide-in pl-4">BUAT PENGALAMANMU ANDA TAK TERLUPAKAN</H2>
